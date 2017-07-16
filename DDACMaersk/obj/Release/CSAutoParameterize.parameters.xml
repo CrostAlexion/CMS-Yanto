@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ddac2.mdf;Initial Catalog=ddaccatalog2;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JuniorXR\\Documents\\Visual\ Studio\ 2017\\Projects\\DDACMaersk\\DDACMaersk\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="LocalConnection-Web.config Connection String" description="LocalConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\ddaclocal1.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JuniorXR\\Documents\\Visual\ Studio\ 2017\\Projects\\DDACMaersk\\DDACMaersk\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LocalConnection']/@connectionString" />
+  </parameter>
+  <parameter name="CloudConnection-Web.config Connection String" description="CloudConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:cms-ddac1-sqlserver.database.windows.net,1433;Initial Catalog=cms-ddac1-sqldb;Persist Security Info=False;User ID=cmsadmin;Password=Crostoutlook123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JuniorXR\\Documents\\Visual\ Studio\ 2017\\Projects\\DDACMaersk\\DDACMaersk\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CloudConnection']/@connectionString" />
+  </parameter>
+</parameters>
